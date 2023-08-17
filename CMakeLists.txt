@@ -3,4 +3,4 @@ project(starterpack_igloo_snowhouse)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(starterpack_igloo_snowhouse main.cpp)
+add_executable(codewars codewars.cpp)
