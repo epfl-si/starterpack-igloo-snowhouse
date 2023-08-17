@@ -13,3 +13,4 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(igloo)
 
 add_executable(codewars codewars.cpp)
+target_link_libraries(codewars PRIVATE igloo)
